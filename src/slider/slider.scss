@@ -1,0 +1,41 @@
+.wrapSlider{
+	position: relative;
+	
+	.scale {
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		box-sizing: border-box;
+		width: 100%;
+	}
+
+	.slider {
+		display: flex;
+		align-items: center;
+		position: relative;
+
+		.shaft {
+			width: 100%;
+	
+			img {
+				display: block;
+				width: 100%;
+			}
+		}
+		
+		.arrow {
+			position: absolute;
+			height: 100%;
+
+			&:focus {
+				outline: none;
+			}
+	
+			img {
+				display: block;
+				height: 100%;
+			}
+		}
+	}
+}
