@@ -3,7 +3,7 @@
 import * as React from 'react';
 import {useState, useLayoutEffect, useRef, useContext} from 'react';
 import './slider.scss';
-import preloadImage from '../scripts/preloadImage.js'
+import preloadImage from '../scripts/preloadImage.js';
 import ShaftDefaultImg from './styleDefault/shaft.png';
 import ArrowDefaultImg from './styleDefault/arrow.png';
 
